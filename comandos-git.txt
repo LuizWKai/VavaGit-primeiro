@@ -1,0 +1,49 @@
+|Comandos utilizados no git|
+
+-Para iniciar o git
+git init
+
+-Atulizar os arquivos do branch
+git pull
+
+-Para adicionar todos os arquivos da pasta ao commit
+git add .
+
+-Para adicionar um arquivo especifico
+git add (nome do arquivo)
+
+-Ver os estado dos arquivos
+git status
+
+-Commitar o arquivo
+git commit -m "(msg da alteração)"
+
+-Vicular seu repositório local ao repositorio remoto(Github)
+git remote add origin (link do seu repositorio)
+
+-Enviar seus arquivos/diretórios
+  Primeiro repositório
+	git push -u origin master
+  O resto
+	git push
+
+-Criar um branch
+git branch (nome do branch)
+
+-Criar um branch e mudar para ele
+git checkout -b (nome do branch)
+
+-Adicionar as alterações de um branch ao outro
+ 1º- Volte para o branch que você deseja adicionar a alteração
+	git checkout (nome)
+ 2º- Puxar a alteração
+	git merge (nome do lugar que deseja pegar a alteração)
+
+-Apagar uma branch
+git branch -d (nome)
+
+-Apagar branch remoto
+git push origin:(nome)
+
+-Alterar msg do commit
+git commit --amend -m "(nova msg)"

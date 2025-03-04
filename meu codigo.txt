@@ -1,4 +1,38 @@
-Olá, meu nome é Jamal
-Tenho 40 anos, e estou aprendendo programação
-Cresci em Paranapiacaba e sonho em ter uma padaria no centro da cidade
+
+|Passos de como utilizar o Git no dia a dia|
+
+1- Git pull da branch principal (vai atualizar o codigo)
+git pull
+
+2- Gerar uma nova branch e entrar nela a partir da branch base que você escolher
+git checkout -b (nome da sua branch) (qual branch vai ser a base - normalmente a master/main)
+
+3- Trabalhar na branch que você criou
+
+4- Adicionar o codigo criado ao branch
+git add .
+
+5- Dar um commit
+git commit -m "(nome da alteração)"
+
+6- Enviar com git push 
+git push
+
+7- Caso de erro, ele irá te mandar um outro codigo. Só copiar e colar (vai enviar seu codigo pra sua conta do Github)
+
+8- Voltar para sua branch principal 
+git checkout (nome da dua branch principal - normalmente é main ou master)
+
+9- Sempre atualizar
+git pull
+
+10- Puxar as alterações feitas na outra branch até a principal
+git merge (nome da branch que deseja pegar as alterações)
+
+11- Enviar pro github
+git push
+
+
+
+
 
